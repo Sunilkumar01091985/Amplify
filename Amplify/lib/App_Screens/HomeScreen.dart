@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget{
             leading:IconButton(
               icon: new Icon(Icons.arrow_back),
               onPressed: () => {
+                print(""),
                 Navigator.of(context).pop()
               },
             )
